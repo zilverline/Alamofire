@@ -192,8 +192,8 @@ public class Request {
         let task: NSURLSessionTask
         let progress: NSProgress
 
-        var data: NSData? { return nil }
-        var error: NSError?
+        public var data: NSData? { return nil }
+        public var error: NSError?
 
         var credential: NSURLCredential?
 
