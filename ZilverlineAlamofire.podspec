@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name = 'Alamofire'
+  s.name = 'ZilverlineAlamofire'
   s.version = '3.1.4'
   s.license = 'MIT'
   s.summary = 'Elegant HTTP Networking in Swift'
   s.homepage = 'https://github.com/Alamofire/Alamofire'
   s.social_media_url = 'http://twitter.com/AlamofireSF'
   s.authors = { 'Alamofire Software Foundation' => 'info@alamofire.org' }
-  s.source = { :git => 'https://github.com/Alamofire/Alamofire.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/zilverline/Alamofire', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
@@ -16,4 +16,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/*.swift'
 
   s.requires_arc = true
+
+  s.module_name = 'Alamofire'
 end
